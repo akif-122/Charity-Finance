@@ -1,0 +1,823 @@
+:root{
+	--primary-color:#476A30 !important;
+	--secondry-color: #fff !important;
+	--third-color: #161616 !important;
+	--four-color: lightgrey;
+	--five-color: #000000;
+	--lightgrey: lightgrey;
+}
+/*
+=========================================
+	RESPONSIVE  MEDIA QUERIES STARTS
+=========================================
+*/
+
+@media screen and (max-width: 991px){
+
+.section-title h2{
+	font-weight: bolder !important;
+	font-size: 30px !important;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+.section-title p{
+	margin-top: 0px;
+	font-size:30px !important;
+	color: grey;
+}
+
+/*===== TOP BAR =====*/
+	/*TOP BAR LEFT SIDE*/
+
+.top-bar{
+	background: #161616 !important;
+}
+/*.top-left-section{
+	display: flex;
+	flex-direction: column;
+	padding: 0 !important;
+}
+.top-left-section .icon-text{
+	padding: 0 !important;
+	margin: 0 !important;
+
+}
+*/
+.top-left-section i{
+	font-size: 13px !important;
+	font-weight: 300 !important;
+	padding: 15px;
+	color: var(--primary-color) !important;
+	font-weight: bolder;
+	margin-bottom: 0 !important;
+	padding-top: 0 !important;
+	
+}
+.top-left-section span{
+	font-size: 13px !important;
+}
+
+	/* TOP BAR RIGHT SIDE	*/
+.top-right-section ul{
+	display: flex;
+	list-style: none;
+	margin-bottom: 0 !important;
+	
+}
+.top-right-section ul  li{
+	padding: 5px 10px !important;
+	border-left: 1px solid #555;
+	margin-bottom: 0 !important;
+
+}
+.top-right-section ul  li a{
+	color: white;
+}
+#top-btn{
+	background: #476A30 !important;
+	padding: 5px 20px !important;
+	display: inline-block !important;
+	transition: 0.4s;
+}
+#top-btn a{
+	font-size: 14px !important;
+	display: block !important;
+	font-weight: bold;
+}
+#top-btn:hover{
+	background: transparent !important;
+}
+.top-social-icon li{
+	transition: 0.4s;
+	cursor: pointer;
+}
+.top-social-icon li:hover{
+	background: var(--primary-color) !important;
+}
+
+/*===== TOP BAR  END=====*/
+
+	/* ======= NAVIGATION STRT ======= */
+.navigation{
+	background: transparent !important;	
+
+}
+
+.fixed-top{
+	background: var(--third-color) !important;
+	
+}
+.nav-container{
+	margin: auto !important;
+}
+#mynav ul {
+	position: relative;
+}
+
+#mynav ul li a{
+	margin: auto 5px !important;
+	font-size: 14px !important;
+	font-weight: 500;
+	overflow: hidden;
+	color: var(--secondry-color);
+	transition: 0.3s;
+}
+
+#mynav ul li a:hover{
+	color: var(--primary-color);
+}
+
+	/*======== NAVIGATION END =========*/
+/*===== HEADR SECTION STAR =====*/
+.header-content .donate-amount .btns{
+	margin: 20px 0 !important;
+}
+.header-content .donate-amount .header-btn{
+	padding: 6px 20px !important;
+}
+
+/*===== HEADR SECTION END =====*/
+
+/*===== U-COM SECTION STAR =====*/
+.help-wrap{
+	padding-bottom: 50px !important;
+}
+.u-conpaign-section {
+	margin: 40px auto !important;
+}
+.cal-text h2{
+	font-size: 20px !important;
+	font-weight: bold;
+}
+
+.raised h5,
+.goal h5{
+	font-size: 12px !important;
+	
+}
+.raised h3,
+.goal h3{
+	font-weight: 500 !important;
+}
+
+
+.u-compaign-btn a{
+	padding: 7px 20px !important;
+	
+}
+
+/*===== U-COM SECTION END =====*/
+
+/*===== l-COM SECTION STAR =====*/
+.card-btn{
+	margin: 10px;
+}
+.card-btn a{
+	padding: 5px 10px;
+	font-weight: 400;
+}
+
+/*===== l-COM SECTION END =====*/
+
+
+/*-====== HEALTHS ECTION START =======*/
+
+ #health-text small{
+	font-size: 12px !important;
+
+}
+#health-text h6{
+
+	font-size: 16px !important;
+
+}
+
+#health-text a{
+	
+	font-size: 13px !important;
+	
+}
+/*-====== HEALTHS ECTION END =======*/
+
+
+/*=== STORY SECTION STAR ===*/
+#story-btn{
+	width: 100%;
+	margin: auto !important;
+	margin-top: 20px !important;
+}
+/*=== STORY SECTION END ===*/
+
+
+
+
+									/*DONATE POP PAGE CSS HERE*/
+
+/*
+		=============================================================================================
+									DONATE POP PAGE CSS START
+		=============================================================================================
+*/
+
+.donate-pop-section .form .default-values .price-box label{
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	margin: 3px;
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+	padding: 5px !important;
+
+}
+
+
+.donate-pop-section .form .default-values .price-box p{
+	display: inline;
+	color: var(--third-color);
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 13px !important;
+	
+}
+
+
+.price-input{
+	margin-top: 2px;
+
+}
+.price-input input{
+	height: 32px;
+	font-size: 13px !important;
+}
+
+/*
+		=============================================================================================
+									DONATE POP PAGE CSS END
+		=============================================================================================
+*/
+
+									/*DONATE POP PAGE CSS END HERE*/
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+.section-title h2{
+	font-weight: bolder !important;
+	font-size: 20px !important;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+.section-title p{
+	margin-top: 0px;
+	font-size:30px !important;
+	color: grey;
+}
+
+
+.nav-container{
+	margin: auto !important;
+}
+
+#mynav ul {
+	position: relative;
+}
+
+#mynav ul li{
+	display: block;
+	border-bottom: 1px solid grey;
+	text-align: center;
+	
+}
+
+
+#mynav ul li a{
+	display: block;
+	color: var(--secondry-color) ;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	transition: 0.5s;
+
+}
+#mynav ul li a:hover{
+	background: var(--primary-color);
+	color: var(--secondry-color) !important;
+
+}
+.box-line:after{
+	content: '';
+	width: 0px !important;
+	height: 00px;
+	position: absolute;
+	right: 0;
+	top: -20%;
+
+
+}
+
+
+/*===== HEADR SECTION STAR =====*/
+.header-content .donate-amount .btns{
+	margin: 20px 10px !important;
+
+}
+.header-content .donate-amount .header-btn{
+	padding: 6px 10px !important;
+	font-size: 13px !important;
+}
+
+/*===== HEADR SECTION END =====*/
+
+
+
+/*.header-content{
+	margin-left: auto  !important;
+	margin-right:auto !important;
+	
+	
+}*/
+
+/*HELP SECTION START*/
+.help-section{
+	padding-bottom: 50px !important;
+}
+.contact-section .section-title h2,
+.story-section .section-title h2,
+.save-section .section-title h2,
+.l-com-section .section-title h2,
+.join-section .section-title h2,
+.help-section .section-title h2{
+	font-size: 28px !important;
+}
+.contact-section .section-title p,
+.story-section .section-title p,
+.l-com-section .section-title p,
+.help-section .section-title p{
+	font-size: 20px !important;
+}
+.help-content{
+	text-align: center;
+	margin: 10px auto !important;
+}
+.help-content i,
+.help-content h6{
+	text-align: center;
+	margin: 20px auto;
+	margin-top: 5px;
+	display: block;
+}
+
+.help-content.line:after{
+	content: '';
+	width: 0px !important;
+	height: 0px;
+	background: lightgrey;
+	position: absolute;
+	right: 10px;
+	top: 40px;
+
+
+}
+#box-center{
+	margin: 20px auto !important;
+}
+
+/*HELP SECTION END*/
+
+/*U-COMPAIGN START ==*/
+.u-conpaign-section{
+	padding-left: 10px !important;
+}
+.u-conpaign-text{
+	margin: 20px  !important;
+}
+.cal-text h2{
+	font-size: 17px !important;
+	font-weight: 500;
+}
+
+
+.u-conpaign-section.container{
+	width: 100% !important;
+	margin: 10px auto !important;
+}
+.raised-goal,
+.u-compaign-btn{
+	padding-left: 20px !important;
+}
+.raised-goal .raised h5,
+.raised-goal .goal h5{
+	font-size: 13px !important;
+}
+
+.raised-goal .raised h3,
+.raised-goal .goal h3{
+	font-size: 18px !important;
+}
+.u-compaign-btn{
+	margin-bottom: 30px !important;
+}
+
+.u-compaign-btn a{
+	padding: 5px 10px !important;
+	font-size: 13px !important;
+	font-weight: 400;
+	margin-right: 3px !important;
+	
+}
+
+
+/* ===== UCOMAPIGN END ====*/
+
+
+
+/*==== 	HEALTH SECTION START ====*/
+#health-text h6{
+	font-size: 14px !important;
+
+}
+
+
+/*==== 	HEALTH SECTION END ====*/
+
+
+
+									/*DONATE POP PAGE CSS HERE*/
+
+/*
+		=============================================================================================
+									DONATE POP PAGE CSS START
+		=============================================================================================
+*/
+
+.donate-pop-section .form .default-values .price-box label{
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	margin: 3px;
+	width: 50px;
+	height: 25px;
+	cursor: pointer;
+	padding: 5px !important;
+
+}
+
+
+.donate-pop-section .form .default-values .price-box p{
+	display: inline;
+	color: var(--third-color);
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 13px !important;
+	
+}
+
+
+.price-input{
+	margin-top: 2px;
+
+}
+.price-input input{
+	height: 27px;
+	font-size: 13px !important;
+}
+
+/*
+		=============================================================================================
+									DONATE POP PAGE CSS END
+		=============================================================================================
+*/
+
+									/*DONATE POP PAGE CSS END HERE*/
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 575px){
+
+
+
+
+/* ========  OWL CAROUSEL ======*/
+.owl-theme{
+	position: relative;
+	display: block;
+}
+.owl-theme .owl-nav {
+	width: 100%;
+	position: absolute;
+	display:  block;
+	top: 80% !important;
+	
+}
+
+.owl-theme .owl-nav .owl-prev,
+.owl-theme .owl-nav .owl-next{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: -10px !important;
+	background: rgba(0,0,0,0.5) !important;
+	font-size: 20px !important;
+	font-weight: bold;
+	color: var(--secondry-color) !important;
+
+
+}
+.owl-theme .owl-nav .owl-next span,
+.owl-theme .owl-nav .owl-prev span{
+	font-size:20px;
+	height: auto;
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.owl-theme .owl-nav .owl-prev{
+	left: 35%;
+
+
+
+}
+.owl-theme .owl-nav .owl-next{
+	right: 35%;
+
+
+}
+/* ========  OWL CAROUSEL END======*/
+
+
+p{
+	font-size: 12px !important;
+	/*header*/
+}
+
+
+
+
+
+.section-title h2{
+	font-weight: 400;
+	margin-bottom: 5px;
+	font-size: 22px !important;
+
+
+}
+.header-content{
+	margin-left: 10px  !important;
+	margin-right: 10px  !important;
+	padding-left: 10px !important;
+	
+	
+}
+.header-content h1{
+	font-size: 17px !important;
+	
+}
+.donate-amount .num{
+	width: 80px !important;
+	border-radius: 4px;
+	border: 1px solid lightgrey;
+	
+}
+.donate-amount span{
+	font-size: 13px !important;
+}
+.header-amount label{
+	font-size: 12px !important;
+	top: 2px;
+}
+.header-amount input{
+	font-size: 13px !important;
+}
+.header-content .donate-amount .btns{
+	margin: 20px 0 !important;
+}
+.header-content .donate-amount .header-btn2,
+.header-content .donate-amount .header-btn{
+	padding: 7px 15px !important;
+	font-size: 12px !important;
+	font-weight: 400;
+	margin: 5px !important;
+	text-align: center;
+}
+
+
+/*help*/
+.help-section{
+	margin: -30px auto !important;
+	padding-bottom: 60px !important;
+}
+.help-content{
+	margin: 0px auto;
+	position: relative;
+}
+
+/*help end*/
+
+/* ===== u-compaign-star =====*/
+.u-conpaign-section{
+	padding: 30px !important;
+}
+.u-compaign-btn a{
+	padding: 5px 15px !important;
+	font-weight: 300 !important;
+}
+/* ===== u-compaign end =====*/
+
+
+/*save section strat*/
+
+.box-line:after{
+	content: '';
+	width: 0px;
+	height: 00px;
+	position: absolute;
+	right: 0;
+	top: -20%;
+}
+
+.save-section .btn a{
+	padding: 5px 15px !important;
+	margin: 10px !important;
+	display: block;
+	font-weight: 400;
+
+}
+
+#title h2{
+	font-size: 18px !important;
+}
+.save-text{
+	margin: 20px !important;
+}
+.save-text h4{
+	font-size: 16px !important;
+
+}
+
+.save-text small{
+	font-size: 12px !important;
+}
+
+
+/*save section end*/
+
+/*-====== HEALTHS ECTION START =======*/
+.healt-section{
+	margin: 20px 0 !important;
+	padding: 30px !important;
+}
+#health-text{
+	margin: 20px 0 !important;
+}
+
+ #health-text small{
+	font-size: 12px !important;
+	color: lightgrey;
+}
+#health-text h6{
+	color: var(--secondry-color);
+	font-size: 17px !important;
+	font-weight: 500 !important;
+}
+
+#health-text a{
+	color: var(--primary-color);
+	font-size: 15px !important;
+	font-weight: 500;
+}
+/*-====== HEALTHS ECTION END =======*/
+
+/*STORY SECTION START*/
+.story-text .btn a{
+	font-weight: 400 !important;
+	padding: 5px 15px !important;
+}
+/*STORY SECTION END*/
+
+/*==== HEATH SECTION START ===*/
+#health-text{
+	text-align: center;
+}
+/*==== HEATH SECTION END ===*/
+
+/*
+=========================================
+			FOOTER SECTION START
+=========================================
+*/
+
+
+.footer-section{
+	background: var(--third-color) !important;
+}
+#navfooter ul{
+	margin: 20px !important;
+	display: flex;
+	flex-direction: column !important;
+
+}
+#navfooter ul li{
+	border-bottom: 1px solid grey;
+	display: block;
+	width: 100%;
+	margin: 0px 10px !important;
+	transition: 0.5s;
+
+}
+#navfooter ul li:hover{
+	background: var(--primary-color) !important;
+	color: var(--secondry-color) !important;
+}
+.footer-section ul li a{
+	padding: 5px !important;
+	color: var(--secondry-color) !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	transition: 0.4s;
+	font-weight: bold;
+	display: block;
+}
+#navfooter ul li a:hover{
+	color: var(--secondry-color) !important;
+}
+
+.social-link  li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border: 1px solid var(--secondry-color) !important;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.4s;
+
+
+}
+.social-link  li:hover{
+	background: var(--primary-color) !important;
+	color:  var(--secondry-color) !important;
+}
+#white{
+	color: var(--secondry-color) !important;
+
+}
+#white:hover{
+	color: var(--secondry-color) !important;
+}
+.copyright-content{
+	border-top: 1px solid lightgrey;
+	padding: 40px !important;
+	color: grey;
+}
+/*
+=========================================
+			FOOTER SECTION END
+=========================================
+*/
+
+}
+
+
+
+
+
+
+
+
+/*
+=========================================
+	RESPONSIVE  MEDIA QUERIES END
+=========================================
+*/
+

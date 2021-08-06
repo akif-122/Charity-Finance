@@ -1,0 +1,414 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+:root{
+	--primary-color:#476A30;
+	--secondry-color: #fff;
+	--third-color: #161616;
+	--four-color: lightgrey;
+}
+
+.sideMenu{
+	margin-top:72px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+	transform: translateX(-100%);
+	background: var(--third-color);
+	z-index: 2000;
+	transition: 0.5s;
+}
+
+.content{
+	width: 100%;
+
+	transition: 0.5s;
+
+}
+
+#top-toggler-btn{
+	display: block;
+	margin-right: 100px;
+}
+
+.admin-img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+/*
+============================================
+	SIDE MENU BAR SECTION START
+============================================
+*/
+.sideMenu .sidebar ul {
+	margin-top: 50px !important;
+}
+.sideMenu .sidebar ul li{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	padding-left: 20px !important;
+	border-bottom: 1px solid grey;
+}
+
+.sideMenu .sidebar ul li a{
+	color: white;
+}
+.sideMenu .sidebar ul li:hover {
+	background: var(--primary-color) !important;
+
+
+}
+
+
+/*
+============================================
+	MAIN SECTION START
+============================================
+*/
+.header-content{
+		margin-top: 100px !important
+}
+.header-content .user-profile{
+	border-bottom: 1px solid var(--four-color);
+}
+.header-content .user-profile h6{
+	margin-top: 20px !important;
+}
+
+.tabs-section .share{
+	border-radius: 5px;
+	box-shadow: 0 0 5px grey;
+	border: none !important;
+}
+
+.tab-post a{
+	font-size: 14px !important;
+	color: grey;
+	text-decoration: none;
+}
+
+/*===========	UPDATE FROM SECTION ===========*/
+.update-form textarea{
+	border-bottom-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	box-shadow: 0 0 0 !important;
+}
+.update-form .text-bottom-section{
+	background: var(--four-color);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.update-form .text-bottom-section .text-left p{
+	color: grey;
+}
+.update-form .text-bottom-section .text-left i,
+.update-form .text-bottom-section .text-right i{
+	color: var(--primary-color);
+}
+.update-form .text-bottom-section .text-right button{
+	padding: 3px 15px;
+	border: 1px solid var(--primary-color);
+	border-radius: 3px;
+	background: var(--primary-color);
+	color: var(--secondry-color);
+	transition: 0.4s;
+}
+.update-form .text-bottom-section .text-right button:hover{
+	background: var(--secondry-color);
+	color: var(--primary-color);
+}
+.update-social-media-icon h5 i{
+	color: var(--primary-color);
+}
+/*===========	UPDATE FROM SECTION END ===========*/
+
+
+/*=============	ALERT SECTION STAT ===============*/
+.alert-section .alert-content a{
+	font-size: 17px;
+	color: var(--primary-color);
+
+}
+/*=============	ALERT SECTION END ===============*/
+
+
+
+/*============= PARA SECTION START ===============*/
+.para-section h6{
+	font-weight: bold;
+	line-height: 1.5;
+
+
+}
+/*============= PARA SECTION END ===============*/
+
+
+
+/*============  UPDATE SECTION START ============*/
+.update-section .posts{
+	background: var(--four-color);
+	border-radius: 5px;
+	padding-top: 20px  !important;
+	padding-bottom: 20px  !important;
+}
+/*============  UPDATE SECTION END ============*/
+
+
+/*============ EDITE SECTION START ============*/
+.edit-section .file .left p{
+	font-size: 17px;
+	font-weight: 400;
+
+}
+.edit-section .file .right a{
+	color: grey;
+	display: block;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 1px solid var(--four-color);
+}
+/*============ EDITE SECTION END ============*/
+
+
+
+
+
+
+
+
+/*
+============================================
+	MAIN SECTION END
+============================================
+*/
+
+
+/*========================================
+	PRICE -SSECION START
+===========================================*/
+
+.price{
+	background: var(--primary-color);
+	border-radius: 4px;
+	padding: 20px;
+}
+
+.price .price-left h1{
+	color: var(--secondry-color);
+}
+.price .price-left h1 small{
+	font-size: 16px;
+}
+
+.price .price-right input{
+	width: 100px;
+	height: 60px;
+	font-size: 30px;
+	padding: 10px;
+	font-weight: bolder;
+	color: var(--secondry-color);
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.price .price-right input::placeholder{
+	color: var(--four-color);
+	font-weight: bolder;
+}
+
+.info-btn{
+	padding: 8px;
+	background: var(--primary-color);
+	color: var(--secondry-color);
+	font-weight: bold;
+	transition: 0.4s;
+	border-radius: 4px;
+	border: 1px solid var(--primary-color);
+}
+.info-btn:hover{
+	background: var(--secondry-color);
+	color: var(--primary-color);
+}
+
+.price-form p,
+pr-btm{
+	font-size: 14px !important;
+}
+
+
+
+/*========================================
+	PRICE -SSECION END
+===========================================*/
+
+
+
+/*========================================
+		COVER PIC SECTION START SECTION 
+===========================================*/
+.img-preview{
+	width: 100%;
+	padding: 10px;
+	height: 400px;
+	background: var(--four-color);
+	border-radius: 5px;
+}
+.img-upload-btn input::-webkit-file-upload-button{
+			width: 100%;
+			background: var(--third-color);
+			color: var(--secondry-color);
+			font-weight: bold;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid var(--primary-color);
+			transition: 0.3s;
+			margin: 20px auto;
+			cursor: pointer;
+		}
+
+.img-upload-btn input::-webkit-file-upload-button:hover{
+	background: var(--primary-color) !important;
+}
+
+
+/*========================================
+		COVER PIC SECTION START SECTION 
+===========================================*/
+
+
+
+
+
+/*========================================
+		STORY SECTION START 
+===========================================*/
+
+.popup{
+	border-radius: 5px;
+	box-shadow: 0 0 5px grey;
+	padding: 30px;
+}
+
+
+/*========================================
+		STORY SECTION END 
+===========================================*/
+
+
+
+
+
+
+
+/*========================================
+		SUPPORT SECTION START
+===========================================*/
+.support-profile .card{
+	background: var(--four-color);
+}
+.support-wrap .support-profile{
+	border: 3px dashed var(--third-color);
+}
+
+.support-wrap .support-profile .sup-profile-pic{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.support-wrap .support-profile .sup-pro-text p{
+	margin: 0 !important;
+}
+ .support-wrap .support-profile .sup-content{
+ 	border-radius: 4px;
+ 	background: var(--secondry-color) !important;
+ }
+ .support-wrap .support-profile .sup-content p{
+ 	font-size: 15px !important;
+ }
+ .sup-btn{
+ 	background: var(--primary-color);
+ 	color: var(--secondry-color);
+ 	font-weight: bold;
+ 	border: 1px solid var(--primary-color);
+ 	transition: 0.4s;
+ }
+  .sup-btn:hover{
+  	background: var(--secondry-color);
+  	color: var(--primary-color);
+  }
+/*========================================
+		SUPPORT SECTION END
+===========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+	.wrapper .sideMenu{
+		transform: translateX(0%) !important;
+	}
+
+	.wrapper .content{
+		margin-left: 200px;
+	}
+
+	.active .sideMenu{
+		transform: translateX(-100%) !important;
+		
+	}
+	.active .content{
+		margin-left: 0px !important;
+	}
+}
+
+
+
+@media screen and (max-width: 991px){
+	.wrapper .sideMenu{
+		transform: translateX(-100%) !important;
+	}
+
+	.wrapper .content{
+		margin-left: 0px;
+	}
+
+	.active .sideMenu{
+		transform: translateX(0%)!important;
+	}
+	.active .content{
+		margin-left: 200px !important;
+	}
+}
